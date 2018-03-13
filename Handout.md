@@ -1,22 +1,5 @@
-# HelloGithub2
 
-
-### this is the repo for Github minicourse in E.Major 
-
-#### GTD
-
-
-
-Finally, I will need three outline file Outline (in detail) (in further detailed)
-
-
-
-
----
-
-### Course Outline : 
-
-### 1. what is Git (a version control system) 
+## 1. What is Git (a version control system) 
 
 - 版本控制系統有很多不同的軟體，最紅的是git
 
@@ -24,7 +7,7 @@ Finally, I will need three outline file Outline (in detail) (in further detailed
 
 - Github = Git + hub。Github.com提供Git的代管服務，允許使用者在網站上存取程式碼、專案和Git版本管理，也包含社交功能
  
-### 2. Environment on Github ： `Fork`/`README` `code` `issue` `project` `Wiki` `settings`/`branch` 
+## 2. Environment on Github ： `Fork`/`README` `code` `issue` `project` `Wiki` `settings`/`branch` 
  
  - `Fork` Let's fork this repo and [r4ds](https://github.com/hadley/r4ds)
  
@@ -34,13 +17,12 @@ Finally, I will need three outline file Outline (in detail) (in further detailed
  > Let's look at `r4ds` and `E.Major-FB` repo
  
  - `branch` 
- > 現在創造一個叫做`Studying_0313_your english name`的分支
+ > 現在在你fork回去的repo創造一個叫做`Studying_0313_your english name`的分支
  
  ![如何開設分支](https://github.com/PoMingChen/HelloGithub2/blob/master/images/0313_Github_minicourse/creat_a_branch.png)
  
- （截一張蔡植中的Network，要標出那個點的示意說明就是你的branch名稱） `
  
-###  3. Environment on  Github desktop : `clone`/`commit`+`push`/`reverse`/`pull request`
+##  3. Environment on  Github desktop : `clone`/`commit`+`push`/`reverse`/`pull request`
  
  - `clone`
  > 把雲端抓到本機
@@ -51,7 +33,7 @@ Finally, I will need three outline file Outline (in detail) (in further detailed
  
 ![](https://github.com/PoMingChen/HelloGithub2/blob/master/images/0313_Github_minicourse/branch_still_in_GithubDesktop.png)
  
- #### Now, stay at the branch in Github desktop and use your `Atom` software to open the `Lecturing_0313.md` file
+ #### Now, stay at the branch `Studying_0313_your english name` in Github desktop and use your `Atom` software to open the `Lecturing_0313.md` file
  
  - `commit(提交新版本）`+`push`
  
@@ -121,18 +103,17 @@ Finally, I will need three outline file Outline (in detail) (in further detailed
 
 ![](https://github.com/PoMingChen/HelloGithub2/blob/master/images/0313_Github_minicourse/pullrequest5.png)
 
- > what happen at `Network` in `Insights`?
+ > Finally, what happen at `Network` in `Insights`?
  
- （截一張蔡植中箭頭指回主幹道的示意圖）
 
  
-#### 3-1. Let's try on your own 
+### 3-1. Let's try on your own 
  
  - 新增一個issue在這個`PoMingChen/HelloGithub2`repo當作發問，或者純粹留言
  
  - 主要重點：
  
-   + `Fork`/`README` `code` `issue` `project` `Wiki` `settings`/`branch`
+   + `Fork`/`README` `code` `issue` `project` `Wiki` `settings`/`branch`  
    + `clone`/`commit`+`push`/`reverse`/`pull request`
  
  - add something new in the `Lecturing_0313.md` and then `commit`+`push`+`pull request` again
@@ -145,44 +126,42 @@ Finally, I will need three outline file Outline (in detail) (in further detailed
  
  --- 
  
-###  4. Let's work in a pair to resemble as team project 
+##  4. Let's work in a pair to resemble as team project
  
- - `pull request`
+- `先示範一次成功的pull request`
  
- (一張植中開設他的分支的圖）
+   1. （組員）柏銘在（組長）植中的repo裡面開設分支`Studying_0313_Alex`
+   
+   2. 柏銘在自己的分支內更新 `Lecturing_0313.md`，並且執行`commit`+`push`+`pull request`
+    
  
- (一張植中新增內容，並同步到雲端的圖）
- 
- (一張植中送出pull request的base 和 compare)
- 
- (一張允許同意合併的圖）
- 
- 
-### 5. To know what to do when it's a conflict in pull request
- 
- (一張由主幹道併入到我的分支的示意圖）
- 
-（我修改的內容）
+## 5. To know what to do when it's a conflict in pull request
 
-（植中修改的內容）
+- `再示範面臨衝突的pull request`
+
+> 會發生衝突，是因為改到同一行
+
+   1. 柏銘再次於在自己的分支內更新 `Lecturing_0313.md`，並且執行`commit`+`push`+`pull request`
+   
+   2. 此時，植中同意merge這個`pull request`，目前都跟剛才示範的成功例子是相同的。
+   
+   3. 植中也在自己的分支`Studying_0313_Lambert`進行修改，而他不小心(或彼此未充分溝通）也修改了同一行，並且執行`commit`+`push`+`pull request`
+   
+   4. 此時，會遇到`Can't automatically merge`
+   
+   5.（組長）植中需要決定要留下哪些部分
+   
+#### 5-1. Let's try on your own 
  
- （由我送出合併請求給主幹道的畫面）
+---
  
- （一張植中送出給給主幹道的合併請求，失敗的畫面）
- 
- （最終由組長決定保留的畫面）
- 
- 
- 
-### 6. A quick course survey
- 
- ---
+#### [A quick course survey](https://www.surveycake.com/s/dVVL3)
  
 ### HW
  
  - `Add local repository + publish`
  
- > 從Github到Github Desktop是從雲端到本機的過程，那如何從本機到雲端呢？（Add local Repository)
+ > 從Github到Github Desktop是從雲端到本機的過程，那如何從本機到雲端呢？（Add local Repository)（請不要使用中文路徑）
 
  > 有意願選修【經濟時事與多媒體出版】學分的同學，請將作業完成後的repo網址，貼到`PoMingChen/HelloGithub2`的issue裡面，就算完成。
  
