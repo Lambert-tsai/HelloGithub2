@@ -3,25 +3,38 @@
 
 ### this is the repo for Github minicourse in E.Major 
 
+簽到QRcode：
 
+![](https://github.com/PoMingChen/HelloGithub2/blob/master/images/0313_Github_minicourse/簽到單QRCode.png)
 
+[或者點連結也是可以的](https://docs.google.com/forms/d/e/1FAIpQLScvECpfiGEvLRx-xMmIHqh-fI7BnnwiUMrlMwYPmCvVEpP_7w/viewform?entry.1052502873=DS-02&entry.1531639348&entry.653372015)
 
+#### 課前要求：
 
-Course Outline : 
+1. 登入Github
+2. 下載Github Desktop並登入
+3. 下載Atom
+
+### Course Outline : 
 
  1. what is Git (a version control system)
  
- 2. Environment on Github and Github desktop
+ 2. Environment on Github
+ 
+ 3. EMvironment on Github desktop
 
- 3. Let's try on your own 
+
+    + 3.1 Let's try on your own 
  
  ---
  
  (19:50 10min break)
  
+ ---
+ 
  4. Let's work in a pair to resemble as team project
  
- 5. To know what to do when it's a contradiction
+ 5. To know what to do when it's a conflict
  
  6. A quick course survey
  
